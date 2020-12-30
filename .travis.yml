@@ -4,8 +4,8 @@ before_srcipt:
    - go version
 install:
 # 安装最新的hugo
-  - wget https://github.com/gohugoio/hugo/releases/download/v0.75.1/hugo_extended_0.75.1_Linux-64bit.tar.gz
-  - tar -xzvf hugo_extended_0.75.1_Linux-64bit.tar.gz
+  - wget https://github.com/gohugoio/hugo/releases/download/v0.79.1/hugo_extended_0.79.1_Linux-64bit.tar.gz
+  - tar -xzvf hugo_extended_0.79.1_Linux-64bit.tar.gz
   - chmod +x hugo
   - export PATH=$PATH:$PWD
   - hugo version
