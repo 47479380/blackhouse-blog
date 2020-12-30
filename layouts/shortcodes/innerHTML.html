@@ -1,0 +1,31 @@
+<style>
+    .short-codes-container{
+        margin: 10px 0;
+        background-color: #f0f0f0;
+        padding: 10px;
+        display: flex;
+    {{-  if .Get "justify"  -}}
+        justify-content:{{.Get "justify"}} ;
+    {{else}}
+    justify-content: center;
+    {{end}}
+    {{- if .Get "width" -}}
+        width: {{ .Get "width" }};
+    {{else}}
+        width: 100%;
+    {{end}}
+    {{- if .Get "height" -}}
+        height: {{.Get "height"}};
+    {{else}}
+        height: 100%;
+    {{end}}
+    }
+</style>
+{{ $isWrap:= .Get "wrap"}}
+{{if not $isWrap}}
+    <div class="short-codes-container {{.Get "class"}}"  >
+        {{- .Inner -}}
+    </div>
+{{else}}
+    {{ .Inner }}
+{{end}}

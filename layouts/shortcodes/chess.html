@@ -1,0 +1,47 @@
+<script type="text/javascript" src="/jquery/jquery.js"></script>
+<script type="text/javascript" src="/vschess/vschess.min.js"></script>
+<style>
+
+
+    .chess-container {
+        margin: 10px -16px;
+        display: flex;
+        justify-content: center;
+        overflow: auto;
+    }
+
+    .chess-container * {
+        box-sizing: content-box !important;
+    }
+
+    .chess-container .vschess-layout-default {
+        width: 100%;
+        max-width: 380px;
+        height: 420px;
+        overflow: auto;
+        /*margin-top: 40px;*/
+    }
+
+    .chess-container .vschess-layout-default > * {
+        display: none;
+    }
+
+    .chess-container .vschess-layout-default .vschess-board {
+        top: 2px;
+        display: block;
+    }
+</style>
+
+<div class="chess-container">
+    <!-- 创建一个空白棋盘 -->
+    <div id="chess{{- .Get "id" -}}" class="vschess"></div>
+</div>
+
+
+<script>
+    var chess = new vschess.load("#chess{{- .Get "id" -}}", {
+        // globalCSS:"/tt.css",
+        chessData: '{{ .Inner }}',
+        cloudApi: false,
+    });
+</script>
