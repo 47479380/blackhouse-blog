@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" 
+  xmlns:content="http://purl.org/rss/1.0/modules/content/" 
+  xmlns:dc="http://purl.org/dc/elements/1.1/" 
+  xmlns:atom="http://www.w3.org/2005/Atom" 
+  xmlns:sy="http://purl.org/rss/1.0/modules/syndication/" 
+  xmlns:media="http://search.yahoo.com/mrss/">
+  <channel>
+    <title>Tags on 小黑屋的博客</title>
+    <link>https://yhdxhw.top/tags/</link>
+    <description>Recent content in Tags on 小黑屋的博客</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh</language>
+    <managingEditor>2752181597@qq.com (小黑屋)</managingEditor>
+    <webMaster>2752181597@qq.com (小黑屋)</webMaster>
+    <copyright>&amp;copy;{year}, All Rights Reserved</copyright>
+    <lastBuildDate>Thu, 08 Apr 2021 23:05:12 +0800</lastBuildDate>
+    
+        <atom:link href="https://yhdxhw.top/tags/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    
+
+      
+      <item>
+        <title>input</title>
+        <link>https://yhdxhw.top/tags/input/</link>
+        <pubDate>Thu, 08 Apr 2021 23:05:12 +0800</pubDate>
+        <author>2752181597@qq.com (小黑屋)</author>
+        
+        <guid>https://yhdxhw.top/tags/input/</guid>
+        <description></description>
+        
+        <dc:creator>小黑屋</dc:creator>
+        
+        
+        
+        
+        
+        
+      </item>
+      
+      <item>
+        <title>你好世界</title>
+        <link>https://yhdxhw.top/tags/%E4%BD%A0%E5%A5%BD%E4%B8%96%E7%95%8C/</link>
+        <pubDate>Wed, 30 Dec 2020 21:02:18 +0800</pubDate>
+        <author>2752181597@qq.com (小黑屋)</author>
+        
+        <guid>https://yhdxhw.top/tags/%E4%BD%A0%E5%A5%BD%E4%B8%96%E7%95%8C/</guid>
+        <description></description>
+        
+        <dc:creator>小黑屋</dc:creator>
+        
+        
+        
+        
+        
+        
+      </item>
+      
+
+    
+  </channel>
+</rss>

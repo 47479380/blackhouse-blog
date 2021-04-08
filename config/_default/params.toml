@@ -28,7 +28,7 @@ homeHeaderType = "text" # text, img, slide, typewriter
 hideHomeHeaderWhenMobile = false
 
 # menu
-showMobileMenuTerms = ["tags", "categories", "series"]
+showMobileMenuTerms = ["tags", "categories"]
 
 # body
 enableBreadcrumb = true
@@ -70,7 +70,7 @@ enableBio = true
 enableBioImage = true
 enableSidebar = true
 enableSidebarTags = true
-enableSidebarSeries = true
+enableSidebarSeries = false
 enableSidebarCategories = true
 enableHomeSidebarTitles = true
 enableListSidebarTitles = true
